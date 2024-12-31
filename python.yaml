@@ -5067,6 +5067,22 @@ python-validictory-pip:
   ubuntu:
     pip:
       packages: [validictory]
+python3-vcstool:
+  osx:
+    pip:
+      packages: [vcstool]
+  alpine: [vcstool]
+  debian:
+    pip:
+      packages: [vcstool]
+  fedora: [python3-vcstool]
+  gentoo:
+    pip:
+      packages: [vcstool]
+  macports:
+    pip:
+      packages: [vcstool]
+  ubuntu: [python3-vcstool]
 python-vcstool:
   osx:
     pip:
